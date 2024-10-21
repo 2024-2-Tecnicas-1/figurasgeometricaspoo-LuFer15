@@ -24,11 +24,13 @@ public class ClaseTriangulo extends ClaseFiguraGeometrica {
         this.altura=altura;
     }
 
+    //Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerArea(){
         return (base*altura)/2;
     }
     
+    //Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerPerimetro(){
         double hipotenusa = Math.sqrt(base*base + altura*altura);

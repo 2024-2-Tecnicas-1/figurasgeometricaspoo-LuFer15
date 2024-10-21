@@ -21,12 +21,12 @@ public class ClaseFiguraGeometrica {
     public void setColor(String color){
         this.color=color;
     }
-
-
+     //Complejidad temporal: O(1) Tiempo constante
     public double obtenerArea() {
         return 0;
     }
 
+    //Complejidad temporal: O(1) Tiempo constante
     public double obtenerPerimetro() {
         return 0;
     }

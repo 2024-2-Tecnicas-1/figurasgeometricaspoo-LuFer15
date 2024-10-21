@@ -14,11 +14,13 @@ public class ClaseCirculo extends ClaseFiguraGeometrica {
         this.radio=radio;
     }
 
+    // Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerArea(){
         return Math.PI *radio*radio;
     }
     
+    //Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerPerimetro(){
         return 2 * Math.PI * radio;

@@ -22,11 +22,14 @@ public class ClaseRectangulo extends ClaseFiguraGeometrica {
     public void setLado2(double lado2){ 
         this.lado2=lado2;
     }
+
+    //Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerArea(){
         return lado1*lado2;
     }
-    
+
+    //Complejidad temporal: O(1) Tiempo constante
     @Override
     public double obtenerPerimetro(){
         return 2 * (lado1+lado2);
